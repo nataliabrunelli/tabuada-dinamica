@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tabuada</title>
+</head>
+
+<body>
+  <header>
+    <h1>Tabuada</h1>
+  </header>
+
+  <section>
+    <div id="pergunta">
+      <label for="numerador">De qual número você deseja saber a tabuada? <br>
+        <input id="n1" type="number" onmouseenter="limparCampos()">
+      </label><br>
+
+      <label for="multiplicador">Até qual número você quer saber? <br>
+        <input id="n2" type="number">
+      </label><br>
+
+    </div>
+    
+    <div >
+      <input id="botao" type="button" value="Calcular" onclick="calcular()">
+      <p id="resposta">Preencha os números acima.</p>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>

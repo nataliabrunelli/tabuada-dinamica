@@ -10,7 +10,7 @@ function calcular(){
   for (var i = 1; i <= n2; i++){
    r += `${n1} x ${i} = ${n1 * i}<br>`;
   }
-  res.innerHTML = "A tabuada do " + n1 + " é: <br>" + r
+  res.innerHTML = "A tabuada do " + n1 + " até " + n2 + " é: <br>" + r
 }
 }
 

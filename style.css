@@ -9,6 +9,7 @@ body {
 h1 {
   color: rgb(239, 235, 228);
   padding: 20px;
+  text-transform: uppercase;
 }
 
 section {
